@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+}
+.name {
+    color: black;
+    position: absolute;
+    margin-left: 80px;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+table {
+    
+    margin-left: 10%;
+    border: 1px  #dddddd;
+    border-radius: 15px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    align-content: center;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+img {
+    border-radius: 50px;
+    padding: 5px;
+    width: 50px;
+    opacity: 0.5
+}
+.caption::after{
+    position: relative;
+    content: '▲';
+    color: gray;
+}
+
