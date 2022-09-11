@@ -1,5 +1,6 @@
 :root {
     --percentbar: 50%;
+    --percentBarDone:100%;
   }
 
 @font-face {
@@ -22,9 +23,11 @@
 
 body{
     background-color: #1E1E1E;
-   
+    text-align: right;
     display: flex;
     flex-direction: column;
+    width: 1920px;
+    height: 1080px;
 }
 .loading {
     display: flex;
@@ -62,7 +65,7 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    border-style: dashed;
+    border: 2px dashed rgba(255, 255, 255, 0.25);
     border-color: gray;
     gap: 16px;
     width: Fill (1,480px);
@@ -103,21 +106,47 @@ body{
     position: relative;
 }
 .loadingBar{
+    font-family: 'Peyda';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
     justify-content: right;
+    color: #FFFFFF;
     position: absolute;
     display: flex;
     align-items: center;
     text-align: center;
     padding: 3px;
     border-radius: 20px;
-    background-color: #FF7F38E5;
+    // background-color: #FF7F38E5;
+    background-image: linear-gradient(to right, #FF7F38,#FF8F31);;
     box-sizing:border-box ;
     left: 0px;
     gap: 16px;
     width: var(--percentbar);
     height: 30px;
 }
-
+.loadingBarDone{
+    font-family: 'Peyda';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    border-radius: 20px;
+    // background-color: #FF7F38E5;
+    background-image: linear-gradient(to right, #FF7F38,#FF8F31);;
+    box-sizing:border-box ;
+    left: 0px;
+    gap: 16px;
+    width: var(--percentBarDone);
+    height: 30px;
+}
 .warningIcon{
     text-align: center;
     position: relative;
@@ -140,6 +169,7 @@ body{
 
 
 .first_border_information{
+    position: relative;
     justify-content: center;
     margin-top: 25px;
     padding: 5px;
@@ -154,19 +184,161 @@ body{
 }
 
 .form_border_info{
+    margin-left: 34.5%;
+    position: relative;
+    margin-top: 10px;
+    justify-content: space-around;
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-    border-style: dashed;
-    border-color: gray;
-   top: 32px;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+ 
+    top: 32px;
     padding: 0px;
     align-self: stretch;
     width: 965px;
-height: 88px;
-gap: 64px;
+    height: 88px;
+    gap: 64px;
     padding: 8px 8px;
-    top: 40px;
+    top: 30px;
     border-radius: 12px;
-    background-color: white;
+}
+ .input_info{
+    display: flex;
+    justify-content: center;  
+}
+
+
+input[type=text],
+        select {
+            text-align: right;
+            color: #FFFFFF;
+            width: 450.5px;
+            height: 56px;
+            padding: 20px 20px;
+            margin: 10px 0;
+            display: inline-block;
+            border: 1px;
+            border-radius: 16px;
+            box-sizing: border-box;
+            background: rgba(99, 99, 99, 0.4);
+}
+
+label {
+    color: #FFFFFF;
+height: 24px;
+
+font-family: 'Peyda';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+flex-direction: row-reverse;
+display: flex;
+align-items: center;
+text-align: right;
+}
+
+.ax_info{
+    display: flex;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 24px;
+}
+.all_info{
+    margin-top: 50px;
+    margin-left: 15px;
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    color: #AAAAAA;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #555555;
+    align-self: stretch;
+    width: 1480px;
+    height: 319px;
+    gap: 64px;
+    padding: 8px 8px;
+    top: 30px;
+    border-radius: 12px;
+    font-family: 'Peyda';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.save_box_info{
+    justify-content: space-around;
+    gap: 16px;
+    width: 387px;
+    height: 56px;
+    display: flex;
+    font-family: 'Peyda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    padding: 10px;
+    margin: 42px 4px;
+    border: none;
+    border-radius: 8px;
+}
+
+.abort_icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Peyda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    width: 150px;
+    height: 56px;
+    background-color: #606060;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.save_icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Peyda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    width: 220px;
+    height: 56px;
+    background-image: linear-gradient(106.97deg, #FE8A48 -11.29%, #FDA53E 91.8%);;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.upload_icon{
+    font-family: 'Peyda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    width: 270px;
+    height: 48px;
+    background-image: linear-gradient(106.97deg, #FE8A48 -11.29%, #FDA53E 91.8%);;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
