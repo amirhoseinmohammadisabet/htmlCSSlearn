@@ -10,12 +10,12 @@
 </head>
 
 <body>
-    <aside class="aside">
-        <div class="aside__logo">
-            <img src="./assets/images/logo.png" alt="#">
+    <div class="sidebar">
+        <div class="sidebar__logo">
+            <img class="sidebar__logoImg" src="./assets/images/logo.png" alt="#">
         </div>
-        <div class="aside__menu">
-            <a class="aside__menuItem" href="#">
+        <div class="sidebar__menu">
+            <a class="sidebar__menuItem" href="#">
                 <svg width="24" height="24" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M14.4933 4.15506L14.4936 4.15525L20.2535 8.18518C20.2535 8.1852 20.2536 8.18523 20.2536 8.18525C20.7228 8.51371 21.1671 9.05228 21.4945 9.67946C21.8219 10.3067 22.0102 10.9798 22.0102 11.5556V18.3356C22.0102 20.6094 20.1641 22.4556 17.8902 22.4556H7.11023C4.83778 22.4556 2.99023 20.6008 2.99023 18.3256V11.4256C2.99023 10.8911 3.16062 10.2521 3.45881 9.64643C3.75686 9.04108 4.1613 8.51244 4.58775 8.17982L4.58786 8.17973L9.59648 4.2708C9.5967 4.27063 9.59692 4.27047 9.59714 4.2703C10.934 3.235 13.103 3.18098 14.4933 4.15506ZM12.5002 20.2056C13.1864 20.2056 13.7502 19.6417 13.7502 18.9556V15.9556C13.7502 15.2694 13.1864 14.7056 12.5002 14.7056C11.8141 14.7056 11.2502 15.2694 11.2502 15.9556V18.9556C11.2502 19.6417 11.8141 20.2056 12.5002 20.2056Z"
@@ -23,7 +23,7 @@
                 </svg>
                 <span>صفحه اصلی</span>
             </a>
-            <a class="aside__menuItem" href="#">
+            <a class="sidebar__menuItem" href="#">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M12.5 22.9556C18 22.9556 22.5 18.4556 22.5 12.9556C22.5 7.45557 18 2.95557 12.5 2.95557C7 2.95557 2.5 7.45557 2.5 12.9556C2.5 18.4556 7 22.9556 12.5 22.9556Z"
@@ -35,7 +35,7 @@
                 </svg>
                 <span>جستجو</span>
             </a>
-            <a class="aside__menuItem" href="#">
+            <a class="sidebar__menuItem" href="#">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M4.5 12.9556V9.39555C4.5 4.97555 7.63 3.16555 11.46 5.37555L14.55 7.15555L17.64 8.93555C21.47 11.1456 21.47 14.7656 17.64 16.9756L14.55 18.7556L11.46 20.5356C7.63 22.7456 4.5 20.9356 4.5 16.5156V12.9556Z"
@@ -44,7 +44,7 @@
                 </svg>
                 <span>پخش آهنگ</span>
             </a>
-            <a class="aside__menuItem" href="#">
+            <a class="sidebar__menuItem" href="#">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M13.12 21.7656C12.78 21.8856 12.22 21.8856 11.88 21.7656C8.98 20.7756 2.5 16.6456 2.5 9.64557C2.5 6.55557 4.99 4.05557 8.06 4.05557C9.88 4.05557 11.49 4.93557 12.5 6.29557C13.51 4.93557 15.13 4.05557 16.94 4.05557C20.01 4.05557 22.5 6.55557 22.5 9.64557C22.5 16.6456 16.02 20.7756 13.12 21.7656Z"
@@ -52,7 +52,7 @@
                 </svg>
                 <span>محبوب ترین ها</span>
             </a>
-            <a class="aside__menuItem" href="#">
+            <a class="sidebar__menuItem" href="#">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M9.5 22.9556H15.5C20.5 22.9556 22.5 20.9556 22.5 15.9556V9.95557C22.5 4.95557 20.5 2.95557 15.5 2.95557H9.5C4.5 2.95557 2.5 4.95557 2.5 9.95557V15.9556C2.5 20.9556 4.5 22.9556 9.5 22.9556Z"
@@ -63,7 +63,7 @@
                 </svg>
                 <span>لیست پخش منتخب</span>
             </a>
-            <a class="aside__menuItem" href="#">
+            <a class="sidebar__menuItem" href="#">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M11.25 13.1885L10.0336 11.972C9.54829 11.4868 8.75171 11.4868 8.26645 11.972C7.78118 12.4573 7.78118 13.2539 8.26645 13.7391L11.6164 17.0891C12.1017 17.5744 12.8983 17.5744 13.3836 17.0891L16.7336 13.7391C17.2188 13.2539 17.2188 12.4573 16.7336 11.972C16.4848 11.7233 16.1655 11.6056 15.85 11.6056C15.5345 11.6056 15.2152 11.7233 14.9664 11.972L13.75 13.1885V10.4556H17.3C18.7946 10.4556 19.9577 10.9205 20.745 11.7089C21.5321 12.4971 21.9947 13.6598 21.99 15.154V15.1556V17.7556C21.99 19.2501 21.5251 20.4134 20.7364 21.202C19.9478 21.9906 18.7846 22.4556 17.29 22.4556H7.7C6.20546 22.4556 5.04235 21.9907 4.2538 21.201C3.46518 20.4113 3 19.2455 3 17.7456V15.1556C3 13.661 3.46492 12.4977 4.25355 11.7091C5.04218 10.9205 6.20545 10.4556 7.7 10.4556H11.25V13.1885Z"
@@ -75,8 +75,8 @@
                 <span>آپلود آهنگ</span>
             </a>
         </div>
-    </aside>
-    <section class="section">
+    </div>
+    <main class="main">
         <header class="header">
             <div class="search">
                 <input class="search__input" type="text" placeholder="جستجو...">
@@ -107,6 +107,29 @@
                     </li>
                     <li>فیلتر</li>
                 </ul>
+                <div class="search__filter">
+                    <span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 6.5H16" stroke="white" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6 6.5H2" stroke="white" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M10 10C11.933 10 13.5 8.433 13.5 6.5C13.5 4.567 11.933 3 10 3C8.067 3 6.5 4.567 6.5 6.5C6.5 8.433 8.067 10 10 10Z"
+                                stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M22 17.5H18" stroke="white" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8 17.5H2" stroke="white" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M14 21C15.933 21 17.5 19.433 17.5 17.5C17.5 15.567 15.933 14 14 14C12.067 14 10.5 15.567 10.5 17.5C10.5 19.433 12.067 21 14 21Z"
+                                stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <span>فیلتر</span>
+                </div>
             </div>
             <a class="header__profile" href="#">
                 <span>09334270917</span>
@@ -169,13 +192,8 @@
                             <span class="playlistCard__duration">۶ ساعت و ۴۰ دقیقه و ۲۱ ثانیه</span>
                         </div>
                     </div>
-                    <button>
-                        <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="34" cy="34" r="34" fill="#FFA928" />
-                            <path
-                                d="M27.8203 28.3592V39.6434C27.8203 41.9544 30.276 43.4047 32.2359 42.2492L37.0204 39.4311L41.8049 36.6012C43.7648 35.4457 43.7648 32.5569 41.8049 31.4013L37.0204 28.5714L32.2359 25.7533C30.276 24.5978 27.8203 26.0363 27.8203 28.3592Z"
-                                fill="white" />
-                        </svg>
+                    <button class="playlistCard__playBtn">
+                        <img src="./assets/images/playPlaylist-Btn.png" alt="#">
                     </button>
                 </div>
             </div>
@@ -229,10 +247,12 @@
                             </span>
                         </div>
                     </td>
-                    <td>دربند</td>
+                    <td>
+                        <h3>دربند</h3>
+                    </td>
                     <td>۲۵ روز پیش</td>
                     <td class="musicInfo">
-                        <span dir="ltr">4 : 32</span>
+                        <span dir="ltr">04: 32</span>
                         <button class="likeBtn">
                             <svg width="24" height="24" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -269,7 +289,7 @@
                         <div class="musicCard">
                             <img class="musicCard__avatar" src="./assets/images/list2.png" alt="#">
                             <button class="musicCard__info  primaryColor">
-                                <span>باطل</span>
+                                <h3>باطل</h3>
                                 <span>رهام</span>
                             </button>
                             <span class="musicCard__icon musicCard__showIcon">
@@ -286,7 +306,9 @@
                             </span>
                         </div>
                     </td>
-                    <td>تک آهنگ</td>
+                    <td>
+                        <h3>تک آهنگ</h3>
+                    </td>
                     <td>۲۵ روز پیش</td>
                     <td class="musicInfo primaryColor">
                         <span dir="ltr">02: 33</span>
@@ -343,10 +365,12 @@
                             </span>
                         </div>
                     </td>
-                    <td>عیبی داره</td>
+                    <td>
+                        <h3>عیبی داره</h3>
+                    </td>
                     <td>۲۵ روز پیش</td>
                     <td class="musicInfo">
-                        <span dir="ltr">4 : 32</span>
+                        <span dir="ltr">03: 32</span>
                         <button class="likeBtn">
                             <svg width="24" height="24" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -401,10 +425,11 @@
                             </span>
                         </div>
                     </td>
-                    <td>با معرفت</td>
+                    <td>
+                        <h3>با معرفت</h3>
                     <td>۲۵ روز پیش</td>
                     <td class="musicInfo">
-                        <span dir="ltr">4 : 32</span>
+                        <span dir="ltr">03: 52</span>
                         <button class="likeBtn">
                             <svg width="24" height="24" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -455,14 +480,15 @@
                                         d="M20.125 18.8389V9.16139C20.125 8.24264 19.799 7.87514 18.9755 7.87514H16.8995C16.0817 7.87514 15.75 8.24264 15.75 9.16139V18.8389C15.75 19.7576 16.076 20.1251 16.8995 20.1251H18.9755C19.799 20.1251 20.125 19.7576 20.125 18.8389Z"
                                         fill="white" />
                                 </svg>
-
                             </span>
                         </div>
                     </td>
-                    <td>واقعی</td>
+                    <td>
+                        <h3>واقعی</h3>
+                    </td>
                     <td>۲۵ روز پیش</td>
                     <td class="musicInfo">
-                        <span dir="ltr">4 : 32</span>
+                        <span dir="ltr">03: 12</span>
                         <button class="likeBtn">
                             <svg width="24" height="24" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -516,10 +542,12 @@
                             </span>
                         </div>
                     </td>
-                    <td>تک آهنگ</td>
+                    <td>
+                        <h3>تک آهنگ</h3>
+                    </td>
                     <td>۲۵ روز پیش</td>
                     <td class="musicInfo">
-                        <span dir="ltr">4 : 32</span>
+                        <span dir="ltr">03: 22</span>
                         <button class="likeBtn">
                             <svg width="24" height="24" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -574,10 +602,12 @@
                             </span>
                         </div>
                     </td>
-                    <td>تهران تهران</td>
+                    <td>
+                        <h3>تهران تهران</h3>
+                    </td>
                     <td>۲۵ روز پیش</td>
                     <td class="musicInfo">
-                        <time dir="ltr">3: 33</time>
+                        <time dir="ltr">03: 33</time>
                         <button class="likeBtn">
                             <svg width="24" height="24" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -605,88 +635,56 @@
                 </tr>
             </tbody>
         </table>
-    </section>
+    </main>
     <div class="musicPlayer">
         <div class="musicPlayer__container">
-            <div class="musicPlayer__info">
-                <img src="./assets/images/shadmehr-player.png" width="64px" height="64px" alt="#">
-                <div class="musicPlayer__description">
-                    <h3>باطل</h3>
-                    <span>شادمهر عقیلی</span>
+            <div class="musicPlayer__controll">
+                <div class="musicPlayer__info">
+                    <img class="musicPlayer__img" src="./assets/images/shadmehr-player.png" alt="#">
+                    <div class="musicPlayer__description">
+                        <h4>باطل</h4>
+                        <span>شادمهر عقیلی</span>
+                    </div>
                 </div>
-            </div>
-            <div class="musicPlayer__audio">
-                <div class="musicPlayer__sound">
-                    <!-- <div class="musicPlayer__lineVolume">
+                <div class="musicPlayer__audio">
+                    <div class="musicPlayer__sound">
+                        <input class="musicPlayer__lineVolume" type="range">
+                        <button class="musicPlayer__volumeBtn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.9998 16.75C17.8398 16.75 17.6898 16.7 17.5498 16.6C17.2198 16.35 17.1498 15.88 17.3998 15.55C18.9698 13.46 18.9698 10.54 17.3998 8.45003C17.1498 8.12003 17.2198 7.65003 17.5498 7.40003C17.8798 7.15003 18.3498 7.22003 18.5998 7.55003C20.5598 10.17 20.5598 13.83 18.5998 16.45C18.4498 16.65 18.2298 16.75 17.9998 16.75Z"
+                                    fill="white" />
+                                <path
+                                    d="M19.8299 19.25C19.6699 19.25 19.5199 19.2 19.3799 19.1C19.0499 18.85 18.9799 18.38 19.2299 18.05C21.8999 14.49 21.8999 9.51003 19.2299 5.95003C18.9799 5.62003 19.0499 5.15003 19.3799 4.90003C19.7099 4.65003 20.1799 4.72003 20.4299 5.05003C23.4999 9.14003 23.4999 14.86 20.4299 18.95C20.2899 19.15 20.0599 19.25 19.8299 19.25Z"
+                                    fill="white" />
+                                <path
+                                    d="M14.02 3.78003C12.9 3.16003 11.47 3.32003 10.01 4.23003L7.09 6.06003C6.89 6.18003 6.66 6.25003 6.43 6.25003H5.5H5C2.58 6.25003 1.25 7.58003 1.25 10V14C1.25 16.42 2.58 17.75 5 17.75H5.5H6.43C6.66 17.75 6.89 17.82 7.09 17.94L10.01 19.77C10.89 20.32 11.75 20.59 12.55 20.59C13.07 20.59 13.57 20.47 14.02 20.22C15.13 19.6 15.75 18.31 15.75 16.59V7.41003C15.75 5.69003 15.13 4.40003 14.02 3.78003Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="musicPlayer__time">
+                        <span dir="ltr">03:23</span>
+                        <input class="musicPlayer__lineTimeWrapper" type="range" dir="ltr" min="0" max="100" value="10">
+                        <span dir="ltr">00:23</span>
+                    </div>
+                    <div class="musicPlayer__btns">
+                        <button class="musicPlayer__next">
+                            <img src="./assets/images/next.png" alt="#">
 
-                    </div> -->
-                    <input class="musicPlayer__lineVolume" type="range">
-                    <button class="musicPlayer__volumeBtn">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M17.9998 16.75C17.8398 16.75 17.6898 16.7 17.5498 16.6C17.2198 16.35 17.1498 15.88 17.3998 15.55C18.9698 13.46 18.9698 10.54 17.3998 8.45003C17.1498 8.12003 17.2198 7.65003 17.5498 7.40003C17.8798 7.15003 18.3498 7.22003 18.5998 7.55003C20.5598 10.17 20.5598 13.83 18.5998 16.45C18.4498 16.65 18.2298 16.75 17.9998 16.75Z"
-                                fill="white" />
-                            <path
-                                d="M19.8299 19.25C19.6699 19.25 19.5199 19.2 19.3799 19.1C19.0499 18.85 18.9799 18.38 19.2299 18.05C21.8999 14.49 21.8999 9.51003 19.2299 5.95003C18.9799 5.62003 19.0499 5.15003 19.3799 4.90003C19.7099 4.65003 20.1799 4.72003 20.4299 5.05003C23.4999 9.14003 23.4999 14.86 20.4299 18.95C20.2899 19.15 20.0599 19.25 19.8299 19.25Z"
-                                fill="white" />
-                            <path
-                                d="M14.02 3.78003C12.9 3.16003 11.47 3.32003 10.01 4.23003L7.09 6.06003C6.89 6.18003 6.66 6.25003 6.43 6.25003H5.5H5C2.58 6.25003 1.25 7.58003 1.25 10V14C1.25 16.42 2.58 17.75 5 17.75H5.5H6.43C6.66 17.75 6.89 17.82 7.09 17.94L10.01 19.77C10.89 20.32 11.75 20.59 12.55 20.59C13.07 20.59 13.57 20.47 14.02 20.22C15.13 19.6 15.75 18.31 15.75 16.59V7.41003C15.75 5.69003 15.13 4.40003 14.02 3.78003Z"
-                                fill="white" />
-                        </svg>
-                    </button>
-                </div>
-                <div class="musicPlayer__time">
-                    <span dir="ltr">03:23</span>
-
-                    <!-- <div class="musicPlayer__lineTimeWrapper" dir="ltr"> -->
-                    <input class="musicPlayer__lineTimeWrapper" type="range" dir="ltr" min="0" max="100" value="10">
-                    <!-- <div class="musicPlayer__lineTime">
-
-                        </div>
-                        <div class="musicPlayer__thumb">
-
-                        </div> -->
-                    <!-- </div> -->
-
-                    <span dir="ltr">00:23</span>
-                </div>
-                <div class="musicPlayer__btns">
-                    <span class="next">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M3.75977 7.22V16.79C3.75977 18.75 5.88977 19.98 7.58977 19L11.7398 16.61L15.8898 14.21C17.5898 13.23 17.5898 10.78 15.8898 9.8L11.7398 7.4L7.58977 5.01C5.88977 4.03 3.75977 5.25 3.75977 7.22Z"
-                                fill="white" />
-                            <path
-                                d="M20.2402 18.93C19.8302 18.93 19.4902 18.59 19.4902 18.18V5.82001C19.4902 5.41001 19.8302 5.07001 20.2402 5.07001C20.6502 5.07001 20.9902 5.41001 20.9902 5.82001V18.18C20.9902 18.59 20.6602 18.93 20.2402 18.93Z"
-                                fill="white" />
-                        </svg>
-                    </span>
-                    <span class="pause">
-                        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="54" height="54" rx="27" fill="#464646" fill-opacity="0.7" />
-                            <path
-                                d="M24.65 34.11V19.89C24.65 18.54 24.3035 18 23.4282 18H21.2218C20.3465 18 20 18.54 20 19.89V34.11C20 35.46 20.3465 36 21.2218 36H23.4282C24.3035 36 24.65 35.46 24.65 34.11Z"
-                                fill="white" />
-                            <path
-                                d="M34.0001 34.11V19.89C34.0001 18.54 33.6536 18 32.7783 18H30.5719C29.7026 18 29.3501 18.54 29.3501 19.89V34.11C29.3501 35.46 29.6966 36 30.5719 36H32.7783C33.6536 36 34.0001 35.46 34.0001 34.11Z"
-                                fill="white" />
-                        </svg>
-
-                    </span>
-                    <span class="prevoius">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20.24 7.22V16.79C20.24 18.75 18.11 19.98 16.41 19L12.26 16.61L8.10996 14.21C6.40996 13.23 6.40996 10.78 8.10996 9.8L12.26 7.4L16.41 5.01C18.11 4.03 20.24 5.25 20.24 7.22Z"
-                                fill="white" />
-                            <path
-                                d="M3.75977 18.93C3.34977 18.93 3.00977 18.59 3.00977 18.18V5.82001C3.00977 5.41001 3.34977 5.07001 3.75977 5.07001C4.16977 5.07001 4.50977 5.41001 4.50977 5.82001V18.18C4.50977 18.59 4.16977 18.93 3.75977 18.93Z"
-                                fill="white" />
-                        </svg>
-                    </span>
+                        </button>
+                        <button class="musicPlayer__pause">
+                            <img src="./assets/images/pause.png" alt="#">
+                        </button>
+                        <button class="musicPlayer__prevoius">
+                            <img src="./assets/images/previous.png" alt="#">
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="musicPlayer__menu">
-                <button class="">
+                <button>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M16.44 3.09998C14.63 3.09998 13.01 3.97998 12 5.32998C10.99 3.97998 9.37 3.09998 7.56 3.09998C4.49 3.09998 2 5.59998 2 8.68998C2 9.87998 2.19 10.98 2.52 12C4.1 17 8.97 19.99 11.38 20.81C11.72 20.93 12.28 20.93 12.62 20.81C15.03 19.99 19.9 17 21.48 12C21.81 10.98 22 9.87998 22 8.68998C22 5.59998 19.51 3.09998 16.44 3.09998Z"
